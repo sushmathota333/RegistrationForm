@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+:root {
+  --blue: #1e3770;
+  --light-blue: #3c40c6;
+  --info: #2f77fd;
+  --white: #ffffff;
+  --white-smoke: #efefef;
+  --white-smoke-light: #f5f5f5;
+  --inner-bg-color: #f6f7fb;
+  --error: #CA1F0E;
+  --black: #000000;
+  --gray: #444444;
+  --light-gray: #616161;
+  --warning: #fdad2c;
+  --success: #5cb85c;
+  --dark-gray: #212529;
+  --base-font-size: 14px;
+  --base-font-family: 'Poppins', sans-serif;
+  --titles-serif-font: 'DM Serif Text', serif;
+  --side-panel-header-bg: #d7e2ed;
+}
+
+
+.text-error {
+  color: var(--error);
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+.form-control {
+    border-radius: 0px !important;
+    padding: 5px;
+    margin-left: 41px
+}
+
+.form-label{
+    display: inline-block;
+    margin-left: 41px;
+}
+
+.form-text {
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #6c757d;
+  margin-left: 47px;
+}
+
+.bg_image{
+  background-image: url('../Components/image/bg_image.png');
+  background-size: cover;
+  height: 100vh;
+  color: #f5f5f5;
+}
+
+.chart{
+  width: 80%;
+  height: 60%;
+}
+
+ 
+
